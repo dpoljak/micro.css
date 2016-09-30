@@ -1,0 +1,167 @@
+html {
+    font-family: 'Helvetica', 'Arial', sans-serif;
+    min-height: 100%;
+    text-align: center;
+    box-sizing: border-box;
+    color: #333;
+    font-size: 12px;
+}
+
+@media screen and (min-width: 320px) {
+    html {
+        font-size: calc(12px + 4 * (100vw - 320px) / 1046);
+    }
+}
+
+@media screen and (min-width: 1366px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+.micro-wrapper {
+    width: 100%;
+    max-width: 960px;
+    text-align: justify;
+    padding: 1.5%;
+    box-sizing: border-box;
+}
+
+.micro-row:after {
+    content: " ";
+    display: block;
+    height: 0;
+    clear: both;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.column {
+    float: left;
+    margin: 0 1.5% 1.5% 0;
+    top: 0;
+    left: 0;
+    box-sizing: border-box;
+    display: inline-block;
+}
+
+.one {
+    width: 5.58333%;
+}
+
+.two {
+    width: 14.16667%;
+}
+
+.three {
+    width: 22.75%;
+}
+
+.four {
+    width: 31.33333%;
+}
+
+.five {
+    width: 39.91667%;
+}
+
+.six {
+    width: 48.5%;
+}
+
+.seven {
+    width: 57.08333%;
+}
+
+.eight {
+    width: 65.66667%;
+}
+
+.nine {
+    width: 74.25%;
+}
+
+.ten {
+    width: 82.83333%;
+}
+
+.eleven {
+    width: 91.41667%;
+}
+
+.twelve {
+    width: 100%;
+}
+
+input:not([type='submit']) {
+    border-radius: 5px;
+    border: 1px solid #aaa;
+    box-shadow: 0 0 1px #aaa;
+    height: 25px;
+    line-height: 25px;
+    padding: 3px;
+    font-family: inherit;
+}
+
+label {
+    display: block;
+}
+
+input:focus,
+textarea:focus {
+    box-shadow: 0 0 2px #3366ff;
+    border: 1px solid #3366ff;
+}
+
+textarea {
+    border-radius: 5px;
+    border: 1px solid #aaa;
+    box-shadow: 0 0 1px #aaa;
+    line-height: 25px;
+    padding: 3px;
+    resize: none;
+    font-family: inherit;
+}
+
+button,
+input[type='submit'] {
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #ff9800;
+    border: 1px solid #ff9800;
+    font-family: inherit;
+}
+
+button:hover,
+button:focus,
+input[type='submit']:hover,
+input[type='submit']:focus {
+    box-shadow: 0 0 5px #ff9800;
+}
+
+table {
+    border-collapse: separate;
+    border: 2px solid #c8c8c8;
+    border-radius: 5px;
+    border-spacing: 0;
+}
+
+thead {
+    font-weight: 700;
+}
+
+tbody tr:nth-child(2n-1) {
+    background-color: #ccc;
+}
+
+.full {
+    width: 100%;
+}
