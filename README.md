@@ -1,4 +1,4 @@
-# dpoljak.github.io
+# dpoljak.github.io/micro.css
 
 This is a temporary repository made for my own minimal CSS framework and it's showcase website.
 It has been made for a-k-apart competition in making a website in under 10kilobytes.
